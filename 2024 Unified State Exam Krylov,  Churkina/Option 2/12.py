@@ -1,5 +1,5 @@
 for n in range(4, 10000):
-    s = '1' * n
+    s = '1' + '2' * n
     while '12' in s or '5522' in s or '2222' in s:
         if '12' in s:
             s = s.replace('12', '55', 1)
