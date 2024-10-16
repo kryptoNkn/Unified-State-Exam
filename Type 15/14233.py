@@ -1,3 +1,5 @@
+# https://inf-ege.sdamgia.ru/problem?id=14233
+
 arr = []
 P = [i for i in range(17,47)]
 Q = [i for i in range(22,58)]
