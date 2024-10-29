@@ -1,8 +1,8 @@
 s = '3' * 111
-
-while '3333' in s or '1111' in s:
+while '33333' in s or '1111' in s:
     if '33333' in s:
-        s = s.replace('33333','111',1)
+        s = s.replace('33333', '111', 1)
     else:
-        s = s.replace('111','33',1)
-print(sum(map(int,s)))
+        s = s.replace('111', '33', 1)
+print(s)
+print(1+1+1+3+1+1+1+3)
