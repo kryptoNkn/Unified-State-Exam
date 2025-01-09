@@ -1,10 +1,10 @@
-for x in range(100000):
-    n = 3**2000+3**10-x
-    count = 0
-    while n > 0:
-        if n % 3 == 2:
-            count+=1
-        n//=3
+for x in range(1, 100000):
+    s = 3 ** 2000 + 3**10-x
+    k = 0
+    while s != 0:
+        if s % 3 == 2:
+            k +=1
+        s//=3
 
-    if count == 2000:
+    if k == 2000:
         print(x)
